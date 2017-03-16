@@ -4,44 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <title>Fake News Article</title>
   <style type="text/css">
     body {
       margin: 0;
       padding: 0;
     }
-    body.playwall-modal-open {
-      background-color: rgba(0, 0, 0, 0.5);
-    }
-    body.playwall-modal-open img {
-      opacity: 0.2;
-    }
     img {
       min-width: 100%;
       min-height: 100%;
-    }
-    #playwall-frame {
-      display: none;
-      width: 300px;
-      min-height: 560px;
-      border: 0;
-      border-radius: 10px;
-    }
-    #playwall-frame.modal-open {
-      display: table;
-      z-index: 9999;
-      position: absolute;
-      margin: 0 auto;
-      top: 50px;
-      left: 0;
-      right: 0;
     }
   </style>
 </head>
 <body>
   <img src="artikel.png" />
   <script src="playwall-script.js"></script>
-  <iframe id="playwall-frame" src="http://theplaywall.herokuapp.com/">
 </body>
 </html>
